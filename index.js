@@ -19,5 +19,3 @@ app.listen(process.env.PORT,()=>{
     console.log(`example app listing on port ${port}`)
 })
 
-
-console.log("Hello")
