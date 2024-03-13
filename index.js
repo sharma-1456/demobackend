@@ -49,9 +49,7 @@ app.get('/login',(req,res)=>{
     res.send("<h1>hello brothers are enjoy this </h1>")
 })
 
-app.get('/github',(req,res)=>{
-    res.json(githubobj)
-})
+
 
 
 app.listen(process.env.PORT,()=>{
