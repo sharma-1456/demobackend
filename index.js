@@ -15,6 +15,10 @@ app.get('/login',(req,res)=>{
     res.send("<h1>hello brothers are enjoy this </h1>")
 })
 
+app.get('/login',(req,res)=>{
+    res.send("<img src='https://unsplash.com/photos/a-vase-of-flowers-sitting-on-a-dresser-next-to-a-mirror-e1xUQmlgbfE'>")
+})
+
 app.listen(process.env.PORT,()=>{
     console.log(`example app listing on port ${port}`)
 })
